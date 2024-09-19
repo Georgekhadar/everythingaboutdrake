@@ -1,0 +1,102 @@
+/*General Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+/*Basic layout*/
+
+body{
+    font-family:'Poppins,'sans-serif;
+    background: color black;
+
+}
+
+header{
+    display:flex;
+    Justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background-color:black;
+
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background-color:black;
+
+}
+.logo{
+    font: size 24px;
+    color: #FFD700
+
+}
+
+.nav-links{
+    list-style:none;
+
+}
+.nav-links li{
+    display: inline;
+    margin: left 20px;
+
+}
+.nav-links a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold; 
+
+}
+#hero{
+    height:100vh;
+    background:url('hero.jpg')no-repeat center center/cover;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.hero-content {
+    position: relative;
+    top: -300px;
+    left: 49px;
+}
+
+.hero-content h1{
+    font: size 48px;
+    color:#000000;
+
+}
+.btn{
+    background-color:#FFD700;
+    padding:10px20px;
+    color: #000000;
+    text-decoration:none;
+    font-weight:bold;
+    margin: top 20px;
+
+
+}
+#lastest-news{
+    padding: 40px;
+    background: color #222;
+}
+.news-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color:#000000
+
+}
+
+
+
+
+
